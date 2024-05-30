@@ -289,7 +289,7 @@ int PyStand::DetectScript()
 	}
 #endif
 	if (_script.empty()) {
-		exts.push_back(L".int");
+		exts.push_back(L".dll");
 		exts.push_back(L".py");
 		exts.push_back(L".pyw");
 		for (int i = 0; i < (int)exts.size(); i++) {
